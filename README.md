@@ -1,2 +1,2 @@
-# Calculadora-projeto
-Projeto de calculadora simples. Feito em  Javascript, HTML e CSS
+# javascript-calculadora
+Calculadora feita em javascript vanilla, html e css

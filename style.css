@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dde1e7;
+}
+
+.main {
+    box-shadow: 14px 10px 28px -3px rgba(0, 0, 0, 0.272);
+    padding: 40px;
+    border-radius: 15px;
+    background-color: #dde1e7;
+    border: none;
+    display: inline-block;
+}
+
+input {
+    color: rgb(0, 0, 0);
+    padding: 17px;
+    margin: 3px;
+    outline: none;
+    font-size: 1.7rem;
+    font-family: 'Bebas Neue', cursive;
+    border: none;
+    border-radius: 15px;
+}
+
+.num {
+    width: 64px;
+    height: 67px;
+    cursor: pointer;
+}
+
+.text {
+    width: 180px;
+    height: 26px;
+    border-radius: 22px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+    background-color: #c8d0d9c3;
+}
+
+.text1 {
+    width: 24px;
+    height: 26px;
+    border-radius: 50%;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+    background-color: #dde1e7d5;
+}
+
+.maincolor, .blu, .pin, .gre, .pur, .ora {
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+    transition: 0.2 all;
+}
+
+.maincolor:active {
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), 
+    inset 5px 5px 9px rgba(94,104,121,0.3);
+}
